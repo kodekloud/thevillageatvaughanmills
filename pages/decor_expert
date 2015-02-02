@@ -29,3 +29,6 @@
      
 </div>
 
+<script>
+    $("#stylenotes_link").addClass("active");
+</script>
