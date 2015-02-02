@@ -36,7 +36,7 @@
                         <br>
                         <table>
                             <tr>
-                                <td><strong>Demographics:</strong></td>
+                                <td style="width:100px"><strong>Demographics:</strong></td>
                                 <td>3km</td>
                                 <td>5km</td>
                             </tr>
