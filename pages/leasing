@@ -40,11 +40,23 @@
                                 <td>3km</td>
                                 <td>5km</td>
                             </tr>
+                            <tr>
+                                <td><strong>Total Population:</strong></td>
+                                <td>171,258</td>
+                                <td>439,346</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Total Households:</strong></td>
+                                <td>45,470</td>
+                                <td>123,923</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Household Average Income:</strong></td>
+                                <td>$128,442</td>
+                                <td>$114,216</td>
+                            </tr>
                         </table>
-                        <p>Demographics:</p>
-                        <p>Total Population:</p>
-                        <p>Total Households:</p>
-                        <p><strong>Household Average Income:</strong>&nbsp;&nbsp;&nbsp;&nbsp;$128,442&nbsp;&nbsp;&nbsp;&nbsp;$114,216</p>
+
                         <p class="columns_2">
                         <strong> Vice President Leasing - </strong> Andrew Lowther
                         <br><strong> Email : </strong> alowther@bentallkennedy.com<br>
