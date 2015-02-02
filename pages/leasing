@@ -1,0 +1,84 @@
+<div class="full_page_photo" style="background-image: url(http://kodekloud.s3.amazonaws.com/sites/54cfabe36e6f641f2e010000/4c60e5dbfe038a3c5af54a4ea19f4cd7/leasing.jpg);">
+     <div class="container">
+          <!-- <section class="call_to_action">
+               <h3 class="animated bounceInDown">we really <strong>love</strong> what we do</h3>
+               <h4 class="animated bounceInUp skincolored">while <strong>always trying</strong> to get the job done!</h4>
+          </section> -->
+     </div>
+</div>
+<div class="main">
+     <div class="container">
+          <section class="hgroup">
+               <h1>Leasing</h1>
+               <h2>Sunwood Square - 3025 Lougheed Highway Coquitlam, BC</h2>
+               <ul class="breadcrumb pull-right">
+                    <li><a href="/home">Home</a> </li>
+                    <li class="active">Leasing</li>
+               </ul>
+          </section>
+          <section class="article-text">
+               <div class="row">
+                    <div class="col-sm-8 col-md-8">
+                         
+                         <p class="columns_2">
+                         <strong> Vice President Leasing - </strong> Andrew Lowther
+                         <br><strong> Email : </strong> alowther@bentallkennedy.com<br>
+                         <strong> Phone : </strong> (604) 661-5002</p>
+
+                         <strong> Leasing Manager - </strong> Andrei Satuha
+                         <br><strong> Email : </strong> asatuha@bentallkennedy.com<br>
+                         <strong> Phone : </strong> (604) 661-5699
+
+                         <p><strong> Type : Open Community Centre (grocery anchored) </strong> </p>
+                         <strong> Anchors :</strong> Safeway 76,900 sq ft
+                         <br><strong> Anchors :</strong> Shoppers Drug Mart 20,839 sq ft<br>
+                         <strong> Anchors :</strong> JYSK 17,053 sq ft
+                         
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                         <div class="service_teaser vertical">
+                            <div class="service_photo">
+                                <figure style="background-image:url(http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/f6dbff9c3ff2572186f780a16fceabf0/Centre-Info.jpg)"></figure>
+                            </div>
+                            <div class="service_details" id="centre_info_container">
+                                <script id="centre_info_template" type="x-tmpl-mustache/text">
+                                    <h2 class="section_header skincolored">Centre Information<small> <br>{{name}}</br> <br>{{address1}}, </br> <br>{{city}}, {{province_state}}</br></small></h2>
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+          </section>
+         
+     </div>
+     
+</div>
+
+<script>
+    $("#leasing_link").addClass("active");
+    $(document).ready(function() {
+        
+        function renderPageData(){
+            var propertyDetails = getPropertyDetails();
+            renderTemplate("#centre_info_container", "#centre_info_template", propertyDetails)
+        }
+        
+        function renderTemplate(container, template, collection){
+            
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            item_list.push(collection);
+            $.each( item_list , function( key, val ) {
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+            });
+            $(container).show();
+            $(container).html(item_rendered.join(''));
+            
+        }
+        
+        loadMallData(renderPageData);
+    });
+</script>
