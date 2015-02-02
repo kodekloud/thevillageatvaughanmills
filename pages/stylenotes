@@ -12,6 +12,7 @@
                <h1>Stylenotes</h1>
                <ul class="breadcrumb pull-right">
                     <li><a href="/home">Home</a> </li>
+                    <li class="active">Stylenotes</li>
                </ul>
           </section>
           <section class="article-text">
