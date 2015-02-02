@@ -1,0 +1,40 @@
+<div class="full_page_photo" style="background-image: url(http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/f6dbff9c3ff2572186f780a16fceabf0/img2.jpg);">
+     <div class="container">
+          <!-- <section class="call_to_action">
+               <h3 class="animated bounceInDown">we really <strong>love</strong> what we do</h3>
+               <h4 class="animated bounceInUp skincolored">while <strong>always trying</strong> to get the job done!</h4>
+          </section> -->
+     </div>
+</div>
+<div class="main">
+     <div class="container">
+          <section class="hgroup">
+               <h1>About Us</h1>
+               <ul class="breadcrumb pull-right">
+                    <li><a href="/home">Home</a> </li>
+                    <li><a href="/contact_us">Contact Us</a> </li>
+                    <li class="active">About Us</li>
+               </ul>
+          </section>
+          <section class="article-text">
+               <div class="row">
+                    
+                    <p>The Village At Vaughan Mills is proudly managed by Bentall Kennedy. Bentall Kennedy is one of North America's largest real estate investment advisors and one of its foremost providers of real estate services. Bentall Kennedy serves the interests of more than 400 clients across 130 million square feet of office, retail, industrial, residential and hotel properties totalling $23 billion throughout North America. Bentall Kennedy has a 100-year track record of delivering superior returns and a reputation for integrity, innovation and creating value. Bentall Kennedy is a leader in responsible property investing. As part of our fiduciary framework, we seek to enhance asset performance by addressing the environmental, social and governance aspects of developing, owning and managing commercial real estate. For more information visit: <a href= "www.bentallkennedy.com" target="_blank">www.bentallkennedy.com.</a></p>
+               </div>
+          </section>
+          <section class="article-text">
+               <div class="row">
+                    <h3>ForeverGreen Responsible Property Investing</h3>  
+                    <p><strong>ForeverGreen</strong> provides Bentall Kennedy with a consistent messaging strategy on sustainability initiatives that involve our clients, tenants, and suppliers.  Please take a moment to read more about our Responsible Property Investing (RPI) strategy, click here! </p>
+                    <br>
+                    <img src="http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/1f4fc0a8bb15ef89ee1dabfdf2aa388b/SimplyBetterBusiness.jpg" class="bentall_banner" alt="Bentall Kennedy">
+                   
+               </div>
+          </section>
+         
+     </div>
+     
+</div>
+<script>
+    $("#contact_link").addClass("active");
+</script>
