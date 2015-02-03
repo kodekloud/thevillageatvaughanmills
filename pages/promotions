@@ -31,7 +31,10 @@
                     </div>
                </div>
             </script>
-        </section>         
+        </section> 
+        <section class="service_teasers" style="display:none" id="no_promo_container">
+            <h2>There are no events at this time, please check back later</h2>
+        </section>
      </div>
 </div>
 
@@ -42,7 +45,11 @@
         
         function renderPageData(){
             all_promos = getPromotionsList();
-            renderTemplate("#promo_list_container","#promo_list_template", all_promos);    
+            if (all_promos.length > 0 ) {
+                renderTemplate("#promo_list_container","#promo_list_template", all_promos);    
+            } else {
+                $("#no_promo_container").show();
+            }   
         }
         
         
