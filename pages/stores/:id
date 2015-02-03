@@ -36,7 +36,7 @@
                         <article class="portfolio_details">
                             <div id="store_detail_container">
                             <script id="store_detail_template" type="x-tmpl-mustache/text">
-                               <img class="section_header" src="{{alt_gallery_image}}">
+                               
                               <p style="margin-bottom:0" id="phone_label"><strong>Phone :</strong> {{phone}}</p>
                               <p style="margin-bottom:0" id="email_label"><strong>Email :</strong> {{email}}</p>
                             </script>
