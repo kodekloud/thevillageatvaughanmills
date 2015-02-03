@@ -95,9 +95,8 @@
                          <li id="directory_link"><a href="/stores">Store Directory</a></li>
                          <li id="stylenotes_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">Style Notes <span class="caret"></span></a>
                              <ul class="dropdown-menu">
-                                <li><a href="/contact_us">Contact Us</a></li>
-                                <li><a href="/find_us">Find Us</a></li>
-                                <li><a href="/about_us">About Us</a></li>
+                                <li><a href="/stylenotes">Style Notes</a></li>
+                                <li><a href="/decor_expert">Decor Expert</a></li>
                             </ul> 
                          </li>
                          <li id="promotion_link"><a href="/promotions">Promotions</a></li>
@@ -238,7 +237,7 @@
                     <a href="/stores">Store Directory</a>
                 </li>
                 <li>
-                    <a href="/events">Events</a>
+                    <a href="/stylenotes">Style Notes</a>
                 </li>
                 <li>
                     <a href="/promotions">Promotions</a>
