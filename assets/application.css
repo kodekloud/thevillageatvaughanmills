@@ -1841,6 +1841,14 @@ table th[class*="col-"] {
         bottom:0 !important;
         margin-bottom:10px !important;
     }
+    
+    .slider_wrapper{
+        display:none;
+    }
+    
+    #description_section{
+        margin-top:0;
+    }
 	    
     
   .table-responsive {
