@@ -1773,7 +1773,7 @@ table th[class*="col-"] {
 @media (max-width: 767px) {
     
     .map_div{
-        
+        height:260px;
     }
     .footer_text{
         width:auto !important;
