@@ -6473,7 +6473,7 @@ header .container {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  box-shadow:0px 0px 15px black inset;
+  box-shadow:0px 0px 15px gray inset;
 }
 .full_page_photo {
   height: 400px;
