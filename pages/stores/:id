@@ -266,7 +266,11 @@
                     } else {
                          $("#email_label").hide();
                     }
-                    val.alt_store_front_url = getImageURL(val.store_front_url); 
+                    if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
+                        val.alt_store_front_url = "http://kodekloud.s3.amazonaws.com/sites/54cfabe36e6f641f2e010000/e3caeac24db5ab4cc9a8679e6db6392d/VV_default.jpg"    
+                    } else {
+                        val.alt_store_front_url = getImageURL(val.store_front_url);    
+                    }
                     if (val.gallery){
                         val.alt_gallery_image = getImageURL(val.gallery[0]);    
                     }
