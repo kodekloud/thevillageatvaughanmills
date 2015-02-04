@@ -52,7 +52,7 @@
                                     <p><strong>{{name}}</strong></p>
                                     <img style="margin-bottom:30px" src="http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/14d7e193a4e12033723bf919343b9d1f/bental-logo1.png" />
                                     <br>
-                                    <a href="https://www.facebook.com/10DundasEast" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/10DundasEast" target="_blank"><i class="fa fa-twitter"></i></a><a href="http://instagram.com/10dundaseast" target="_blank"><i class="fa fa-instagram"></i></a><a href="https://www.youtube.com/user/10DundasEast" target="_blank"><i class="fa fa-youtube"></i></a>
+                                    <a href="https://www.facebook.com/thevillageatvaughanmills" target="_blank"><i class="fa fa-facebook"></i></a>
                                     <br>
                                     <br>
                                     <p>{{address1}}</p>
