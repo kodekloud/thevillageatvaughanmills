@@ -1758,6 +1758,67 @@ table th[class*="col-"] {
   background-color: #ebcccc;
 }
 @media (max-width: 767px) {
+    .property_logo {
+        display:none;
+    }
+    
+    #social_media_wrapper{
+        right:0 !important;
+    }
+    
+    .navbar .btn-navbar{
+        top:20px;
+        right:0;
+        position:absolute;
+    }
+    
+    .mobile_menu{
+        z-index:99999999;
+        display:block;
+        background:black;
+        position:relative;
+    }
+    
+    .mobile_menu ul{
+        margin:0;
+        padding:0;
+        text-align:center;
+    }
+    .mobile_menu ul > li{
+        list-style:none;
+        min-height:60px;
+        line-height:60px;
+    }
+    
+    .mobile_menu a{
+        color:white;
+        font-size:20px;
+    }
+    
+    .navbar a.navbar-brand {
+        width: 280px;
+        margin: 0px 0 0px 15px;
+      }
+      
+    .store_directory_hgroup{
+        padding-bottom:35px !important;
+    }
+    
+    .footer-text{
+        text-align:center;
+    }
+    
+    .service_teaser .service_photo figure{
+        background-size:100% !important;
+    }
+
+    .hgroup .breadcrumb {
+        position:relative !important;
+        bottom:0 !important;
+        margin-bottom:10px !important;
+    }
+	    
+    
   .table-responsive {
     width: 100%;
     margin-bottom: 15px;
