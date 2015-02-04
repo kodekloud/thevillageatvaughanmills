@@ -89,7 +89,7 @@
                     <div class="col-sm-4 col-md-4">
                          <div class="service_teaser vertical">
                             <div class="service_photo">
-                                <figure style="background-image:url(http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/f6dbff9c3ff2572186f780a16fceabf0/Centre-Info.jpg)"></figure>
+                                <figure style="background-image:url(http://kodekloud.s3.amazonaws.com/sites/54cfabe36e6f641f2e010000/c79561be68cd07010d1cd8a35303ef83/centre-info.jpg)"></figure>
                             </div>
                             <div class="service_details" id="centre_info_container">
                                 <script id="centre_info_template" type="x-tmpl-mustache/text">
