@@ -91,7 +91,7 @@
                 <div class="mobile_menu" style="display:none">
                     <ul>
                         <li><a href="/stores">Store Directory</a></li>
-                        <li><a onclick="javascript:toggle_submenu('style_dd');">Leasing <span class="caret"></span></a>
+                        <li><a onclick="javascript:toggle_submenu('style_dd');">Style Notes <span class="caret"></span></a>
                             <div id="style_dd" class="submenu" style="display:none">
                                 <ul>
                                     <li><a href="/stylenotes">Style Notes</a></li>
