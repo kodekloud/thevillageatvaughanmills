@@ -202,7 +202,7 @@
                 var startingPanX = -120;
                 var startingPanY = -100;
                 if(isMobile) {
-                        startingMapTransform = 'scale(0.8)';
+                        startingMapTransform = 'scale(0.7)';
                         startingPanX = -170;
                         startingPanY = -200;
                 }
