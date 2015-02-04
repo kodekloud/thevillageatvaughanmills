@@ -1771,6 +1771,10 @@ table th[class*="col-"] {
   background-color: #ebcccc;
 }
 @media (max-width: 767px) {
+    
+    .map_div{
+        
+    }
     .footer_text{
         width:auto !important;
     }
