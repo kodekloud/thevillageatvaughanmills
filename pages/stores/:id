@@ -311,7 +311,6 @@
                                     $("#pop-over").show();
                                     $("#pop-over-map-name").html(value.name);
                                     $("#pop-over-map-phone").html(value.phone);
-                                    // console.log(this.getBBox());
                                 }
                                           
                             });
