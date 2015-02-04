@@ -6231,6 +6231,7 @@ header .container {
   float: left;
   margin: 0 6px 0 0;
   margin-top:-15px;
+  margin-left:-40px;
   /* width: 90px;
   height: 90px; */
 }
