@@ -20,7 +20,7 @@
           </section>
           <section>
                <div class="row">
-                    <div class="col-sm-8 col-md-8">
+                    <div class="col-sm-8 col-md-8 map_div">
                                 <div id="zControls">
                                     <button class="zoom-in"><span class="glyphicon glyphicon-plus"></span></button>
                                     <button class="zoom-out"><span class="glyphicon glyphicon-minus"></span></button>
