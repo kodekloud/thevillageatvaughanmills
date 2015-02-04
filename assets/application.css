@@ -1758,6 +1758,14 @@ table th[class*="col-"] {
   background-color: #ebcccc;
 }
 @media (max-width: 767px) {
+    
+    #search_input{
+        width:88% !important;
+    }
+    
+    #fieldEmail{
+        width:98% !important;
+    }
     .property_logo {
         display:none;
     }
