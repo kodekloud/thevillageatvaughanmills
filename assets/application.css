@@ -6460,7 +6460,7 @@ header .container {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: 100% 100%;
+  background-size: cover;
   box-shadow:0px 0px 15px black inset;
 }
 .full_page_photo {
