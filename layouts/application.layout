@@ -87,7 +87,40 @@
           <div class="navbar navbar-default" role="navigation">
                <div class="navbar-header"><a class="navbar-brand" href="/home" id="site_logo">
                <script id="logo_template" type="x-tmpl-mustache/text">{% raw %}<img src="{{site_logo}}" height="70%" width="70%">{% endraw %}</script>
-               </a><a class="btn btn-navbar btn-default navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="nb_left pull-left"> <span class="fa fa-reorder"></span></span> <!--  <span class="nb_right pull-right">menu</span> --> </a></div>
+               </a><a class="btn btn-navbar btn-default navbar-toggle" onclick="javascript:toggle_menu()"><span class="nb_left pull-left"> <span class="fa fa-reorder"></span></span> <!--  <span class="nb_right pull-right">menu</span> --> </a></div>
+                <div class="mobile_menu" style="display:none">
+                    <ul>
+                        <li><a href="/stores">Store Directory</a></li>
+                        <li><a onclick="javascript:toggle_submenu('style_dd');">Leasing <span class="caret"></span></a>
+                            <div id="style_dd" class="submenu" style="display:none">
+                                <ul>
+                                    <li><a href="/stylenotes">Style Notes</a></li>
+                                    <li><a href="/decor_expert">Decor Expert</a></li>
+                                </ul>    
+                            </div>
+                        </li>
+                        
+                        <li><a href="/promotions">Promotions</a></li>
+                        <li><a onclick="javascript:toggle_submenu('leasing_dd');">Leasing <span class="caret"></span></a>
+                            <div id="leasing_dd" class="submenu" style="display:none">
+                                <ul>
+                                    <li><a href="/leasing">Leasing</a></li>
+                                    <li><a href="/photos">Photos</a></li>
+                                </ul>    
+                            </div>
+                        </li>
+                        <li><a onclick="javascript:toggle_submenu('contact_dd');">Contact Us <span class="caret"></span></a>
+                            <div id="contact_dd" class="submenu" style="display:none">
+                                <ul>
+                                    <li><a href="/contact_us">Contact Us</a></li>
+                                    <li><a href="/find_us">Find Us</a></li>
+                                    <li><a href="/about_us">About Us</a></li>
+                                </ul>    
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
                 
                 <div class="collapse navbar-collapse">              
                     <ul class="nav pull-right navbar-nav">
