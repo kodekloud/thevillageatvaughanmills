@@ -331,6 +331,19 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     width:auto; 
     height:auto; 
 } 
+
+#loading_screen{
+    position:relative;
+    height:400px;
+}
+#loading_screen img{
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
 #description_section {
       /* For Safari 5.1 to 6.0 */
       background: -webkit-linear-gradient(left,#ee8b8f, #fdadb0, #ee8b8f);
