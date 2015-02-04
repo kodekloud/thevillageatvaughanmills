@@ -1804,9 +1804,10 @@ table th[class*="col-"] {
     }
     
     .mobile_menu ul{
-        margin:0;
+        /*margin:0;*/
         padding:0;
         text-align:center;
+        margin-top:-4px;
     }
     .mobile_menu ul > li{
         list-style:none;
