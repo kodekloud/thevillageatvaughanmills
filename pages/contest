@@ -126,40 +126,54 @@
     $('#contest_form').submit(function (e) {
         e.preventDefault();
         if ($("#agree_terms").prop("checked") == true){
-            var name = $("#firstName").val() + " " + $("#lastName").val();
-            $('input[name="cm-name"]').attr('value',name);
-            var date = new Date;
-            contest_id = (get_month(date.getMonth())) + date.getFullYear();
-            $('input[name="cm-f-jrihw"]').attr('value',contest_id);
-            if ($("#newsletter_signup").prop("checked") == true){
-                var s = check_email();
-                if (s == true){
-                    var email = $("#fieldEmail").val();
-                    $('input[name="cm-tktdtj-tktdtj"]').attr('value',email);
-                    console.log($("#subForm").serialize())
-                     $.getJSON(
-                        "http://mobilefringe.createsend.com/t/d/s/tktdtj/?callback=?",
-                       $("#subForm").serialize(),
-                        function (data) {
-                            if (data.Status === 400) {
-                                alert("Please try again later.");
-                            } else { // 200
-                                $('#contest_form').unbind('submit').submit();
-                            }
-                    });  
+            var e = verify_required_fields();
+            if (e == true){
+                var name = $("#firstName").val() + " " + $("#lastName").val();
+                $('input[name="cm-name"]').attr('value',name);
+                var date = new Date;
+                contest_id = (get_month(date.getMonth())) + date.getFullYear();
+                $('input[name="cm-f-jrihw"]').attr('value',contest_id);
+                if ($("#newsletter_signup").prop("checked") == true){
+                    var s = check_email();
+                    if (s == true){
+                        var email = $("#fieldEmail").val();
+                        $('input[name="cm-tktdtj-tktdtj"]').attr('value',email);
+                        console.log($("#subForm").serialize())
+                         $.getJSON(
+                            "http://mobilefringe.createsend.com/t/d/s/tktdtj/?callback=?",
+                           $("#subForm").serialize(),
+                            function (data) {
+                                if (data.Status === 400) {
+                                    alert("Please try again later.");
+                                } else { // 200
+                                    $('#contest_form').unbind('submit').submit();
+                                }
+                        });  
+                    } else {
+                        alert("Invaid E-mail address.")
+                    }
+                    
                 } else {
-                    alert("Invaid E-mail address.")
-                }
-                
+                    $('#contest_form').unbind('submit').submit();    
+                }    
             } else {
-                $('#contest_form').unbind('submit').submit();    
+                alert("One or more required fields are blank! please fill in all fields marked with * and try again.")
             }
+            
             
         } else {
             alert("Please agree to the terms and conditions before submitting!")
         }
         
     });
+    
+    function verify_required_fields (){
+        if ($("#firstName").val() != "" && $("#lastName").val() != "" && $("#fieldEmail").val() != "" && $("#fieldjrihki").val() != "" && $("#fieldjrihkk").val() != "" && $("#fieldjrihku").val() != "") {
+            return true;
+        } else {
+            return false;
+        }
+    }
     
     function check_email (){
         var email = $("#fieldEmail").val();
