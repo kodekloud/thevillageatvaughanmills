@@ -4,9 +4,9 @@
           <section class="hgroup">
                <h1>Contact Us</h1>
                <div id = "contact_container">
-               <script id="contact_template" type="x-tmpl-mustache/text">
+               <!-- <script id="contact_template" type="x-tmpl-mustache/text">
                 <h2><strong>{{contact_name}}</strong> - {{contact_phone}} - {{contact_email}}</h2>
-               </script>
+               </script> -->
                </div>
                <ul class="breadcrumb pull-right">
                     <li><a href="/home">Home</a> </li>
