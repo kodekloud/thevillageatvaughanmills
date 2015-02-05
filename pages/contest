@@ -51,7 +51,7 @@
 <div class="main">
     <h1>Enter to Win</h1>
     <p class="contest_description">description</p>
-     <img class="contest_image" src="http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/f6dbff9c3ff2572186f780a16fceabf0/img4.jpg" />
+     <img class="contest_image" src="http://kodekloud.s3.amazonaws.com/sites/54cfabe36e6f641f2e010000/f0580d34c270cf1ba858775fce473a95/contest.png" />
      <div class="contest_form_div">
          <form action="http://mobilefringe.createsend.com/t/d/s/tkhhlr/" method="post" id="contest_form">
             <p style="display:none">
