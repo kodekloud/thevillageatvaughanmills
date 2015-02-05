@@ -81,21 +81,21 @@
                 <input id="fieldjrihkt" name="cm-f-jrihkt" type="text" placeholder="Street Address"/>
             </p>
             <p class="small_field">
-                <label for="fieldjrihyd">City</label><br />
-                <input id="fieldjrihyd" name="cm-f-jrihyd" type="text" placeholder="City"/>
+                <label for="fieldjrihkd">City</label><br />
+                <input id="fieldjrihkd" name="cm-f-jrihkd" type="text" placeholder="City"/>
             </p>
             
             <p class="small_field">
-                <label for="fieldjrihs">Postal Code*</label><br />
-                <input id="fieldjrihs" name="cm-f-jrihs" type="text" required placeholder="Postal Code"/>
+                <label for="fieldjrihkk">Postal Code*</label><br />
+                <input id="fieldjrihkk" name="cm-f-jrihkk" type="text" required placeholder="Postal Code"/>
             </p>
             <p class="small_field">
-                <label for="fieldjrihg">Year of Birth*</label><br />
-                <input id="fieldjrihg" name="cm-f-jrihg" type="text" required placeholder= "Year of Birth"/>
+                <label for="fieldjrihku">Year of Birth*</label><br />
+                <input id="fieldjrihku" name="cm-f-jrihku" type="text" required placeholder= "Year of Birth"/>
             </p>
             <p style="display:none">
-                <label for="fieldjrihw">Contest ID</label><br />
-                <input id="fieldjrihw" name="cm-f-jrihw" type="text" />
+                <label for="fieldjrihkh">Contest ID</label><br />
+                <input id="fieldjrihkh" name="cm-f-jrihkh" type="text" />
             </p>
             <br>
             <br>
