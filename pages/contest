@@ -110,7 +110,7 @@
             <br>
             <span>
                 <label for="agree_terms" style="display:none">Agree Terms</label>
-              <input type="checkbox" class="info_check" id="agree_terms" required/>&nbsp;I agree to the terms and conditions. 
+              <input type="checkbox" class="info_check" id="agree_terms" required/>&nbsp;I agree to the <a href = "/rules_regulations" target="_blank">rules and regulations</a>. 
             </span>
             <br>
             <br>
