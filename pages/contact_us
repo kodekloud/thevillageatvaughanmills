@@ -56,7 +56,7 @@
                                 <script id="centre_info_template" type="x-tmpl-mustache/text">
                                     <h2 class="section_header skincolored">Centre Information<small> <br>{{name}}</br> <br>{{address1}}, </br> <br>{{city}}, {{province_state}}</br></small></h2>
                                     <p style="margin-bottom:0"><i class="fa fa-phone"></i> {{contact_phone}}</p>
-                                    <p style="margin-bottom:0"><i class="fa fa-print"></i> (+30) 9854-7855</p>
+                                   
                                     <p style="margin-bottom:0"><i class="fa fa-envelope"></i> {{contact_email}}</p>
                                     
                                 </script>
