@@ -56,7 +56,7 @@
      
           
      <div class="contest_form_div">
-     <p class="contest_description2"><font size=8px>Complete the form below for your chance to WIN! Contest closes March 31st, 2015. One entry per person. Winner will be contacted via email.</font></p>
+     <p class="contest_description2">Complete the form below for your chance to WIN! Contest closes March 31st, 2015. One entry per person. Winner will be contacted via email.</font></p>
          <form action="http://mobilefringe.createsend.com/t/d/s/tkhhlr/" method="post" id="contest_form">
             <p style="display:none">
                 <label for="fieldName">Name</label><br />
