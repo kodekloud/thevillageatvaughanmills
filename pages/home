@@ -33,7 +33,7 @@
                                    </svg>
                                    <figcaption>
                                         <!-- <p>{{description}}</p> -->
-                                        <div class="view_button">View</div>
+                                        <div class="view_button" {{view_text}}>View</div>
                                    </figcaption>
                               </figure>
                               </a>
