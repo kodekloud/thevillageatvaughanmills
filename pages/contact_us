@@ -18,27 +18,27 @@
                <div class="row">
                     <div class="contact_form col-sm-8 col-md-8" id="contact_form_container">
                         <script id="contact_form_template" type="x-tmpl-mustache/text">
-                         <form name="contact_form" id="contact_form" method="post" action="mailto:{{contact_email}}?subject={{name}} Website Feedback." enctype="text/plain" >
+                         <form name="contact_form" id="contact_form" method="post" action="http://mobilefringe.createsend.com/t/d/s/tkudlh/">
                               <div class="row">
                                    <div class="col-sm-6 col-md-6">
                                         <label>Name</label>
-                                        <input name="name" id="name" class="form-control" type="text" value="" required>
+                                        <input name="cm-name" id="name" class="form-control" type="text" value="" required>
                                    </div>
                                    <div class="col-sm-6 col-md-6">
                                         <label>E-mail</label>
-                                        <input name="email" id="email" class="form-control" type="text" value="" required>
+                                        <input name="cm-tkudlh-tkudlh" id="email" class="form-control" type="text" value="" required>
                                    </div>
                               </div>
                               <div class="row">
                                    <div class="col-sm-12 col-md-12">
                                         <label>Subject</label>
-                                        <input name="subject" id="subject" class="form-control" type="text" required>
+                                        <input name="cm-f-jrhiih" id="subject" class="form-control" type="text" required>
                                    </div>
                               </div>
                               <div class="row">
                                    <div class="col-sm-12 col-md-12">
                                         <label>Message</label>
-                                        <textarea name="message" id="message" rows="8" class="form-control" required></textarea>
+                                        <textarea name="cm-f-jrhiik" id="message" rows="8" class="form-control" required></textarea>
                                    </div>
                                    <div class="col-sm-12 col-md-12"><br/>
                                         <button id="submit" class="btn btn-primary" type="submit">Submit</button>
