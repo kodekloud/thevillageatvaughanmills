@@ -1,3 +1,11 @@
+<style>
+    @media screen\0 {
+        .view_button{
+            display:none;
+        }
+    }
+</style>
+
 <section id="slider_wrapper" class="slider_wrapper full_page_photo">
      <div id="main_flexslider" class="flexslider">
           <ul class="slides" id="home_banner">
