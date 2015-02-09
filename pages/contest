@@ -139,7 +139,7 @@
                     if (s == true){
                         var email = $("#fieldEmail").val();
                         $('input[name="cm-tktdtj-tktdtj"]').attr('value',email);
-                        console.log($("#subForm").serialize())
+                        //console.log($("#subForm").serialize())
                          $.getJSON(
                             "http://mobilefringe.createsend.com/t/d/s/tktdtj/?callback=?",
                            $("#subForm").serialize(),
