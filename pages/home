@@ -113,10 +113,9 @@
                 val.alt_url = val.image_url;
                 var featureitem_rendered = Mustache.render(feature_template_html,val);
                 item_rendered.push(featureitem_rendered);
+                val.view_text = '';
                 if(msieversion()){
                     val.view_text = ' style="display:none;" '
-                }else{
-                    val.view_test = '';
                 }
             });
             
