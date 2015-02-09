@@ -1,4 +1,5 @@
 <style>
+    /* remove view button on feautre items on IE 8,9,10 */
     @media screen\0 {
         .view_button{
             display:none;
