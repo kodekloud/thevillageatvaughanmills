@@ -40,7 +40,7 @@
                             <p style="margin-bottom:0"><strong>Hours :</strong></p>
                             <div id="store_hours_container">
                                 <script id="store_hours_template" type="x-tmpl-mustache/text">
-                                    <li style="list-style:none">{{day}}: {{open_time}} / {{close_time}}</li>
+                                    <li style="list-style:none">{{day}}: {{open_time}} - {{close_time}}</li>
                                 </script>
                             </div>
                             <br>
