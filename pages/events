@@ -43,7 +43,8 @@
     $(document).ready(function() {
         
         function renderPageData (){
-            all_events = getEventsList();
+   all_events = getEventsList(); 
+   all_events = all_events.reverse();
             if (all_events.length > 0 ) {
                 renderTemplate("#promo_list_container","#promo_list_template", all_events);    
             } else {
