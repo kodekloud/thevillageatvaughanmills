@@ -79,6 +79,11 @@
     sessionStorage.setItem('primary_locale', 'en-CA');
     sessionStorage.setItem('secondary_locale', 'fr-CA');
 </script>
+<style>
+    a .directory_content:hover{
+        color: #009cde !important;
+    }
+</style>
 </head>
 <body>
 <header>
